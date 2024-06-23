@@ -1,0 +1,7 @@
+{
+"name":"Vanish",
+"type": "apugli:mobs_ignore",
+"condition": {
+    "type": "origins:sneaking"
+    }
+}

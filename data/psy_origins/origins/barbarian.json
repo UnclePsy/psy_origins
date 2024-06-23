@@ -1,0 +1,11 @@
+{
+    "name": "Barbarian",
+    "impact": 0,
+    "powers":[
+        "psy_origins:martial_proficiency",
+        "psy_origins:barenherz",
+        "psy_origins:rage"
+
+    ],
+    "icon":"doggytalents:throw_bone"
+}

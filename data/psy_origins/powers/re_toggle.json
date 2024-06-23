@@ -1,0 +1,7 @@
+{
+    "name":"re_toggle",
+    "description":"You shouldn't see this",
+    "type": "origins:toggle",
+    "hidden": true,
+    "active_by_default": true
+}

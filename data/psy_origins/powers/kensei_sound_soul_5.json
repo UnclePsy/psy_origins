@@ -1,0 +1,6 @@
+{
+    "name":"Sound Soul 1",
+    "hidden": true,
+    "type": "origins:toggle",
+    "power": "psy_origins:sound Soul"
+}

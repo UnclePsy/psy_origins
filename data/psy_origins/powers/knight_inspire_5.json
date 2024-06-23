@@ -1,0 +1,40 @@
+{
+    "name": "Inspire",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 10,
+        "bientity_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:attack_target"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:attacker"
+                }
+            ]
+        },
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "haste",
+                        "duration": 30,
+                        "amplifier": 2,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                ]
+            }
+        }
+    },
+    "cooldown": 120,
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name":"Venom Strike",
+    "description":"Your glands produce a very potent venom that leaves your victim hurting after every hit",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type":"origins:target_action",
+        "action":{
+            "type": "origins:apply_effect",
+            "effect":{
+                "effect": "minecraft:poison",
+                "duration": 100,
+                "amplifier": 3
+            }
+        }
+    }
+}

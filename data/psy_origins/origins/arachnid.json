@@ -1,0 +1,16 @@
+{
+    "name": "Arachnid",
+    "description": "Not much is known of the spider-kin, but they're usually... tolerable. Many live in isolation. What little they've shared of their race's history is made up for by their usefulness as night stalkers. Perfect hunters that play on ambush instead of chase.",
+    "powers": [
+        "origins:climbing",
+        "origins:master_of_webs",
+        "origins:arthropod",
+        "psy_origins:silk_supply",
+        "origins:toggle_night_vision",
+        "psy_origins:weak_muscles",
+        "psy_origins:venom_claws"
+    ],
+    "icon":"minecraft:cobweb",
+    "loading_priority": 0,
+    "order": 0
+}

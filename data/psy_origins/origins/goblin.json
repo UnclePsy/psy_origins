@@ -1,0 +1,12 @@
+{
+    "name": "Goblin",
+    "description": "Goblins are an inquisitive and adaptable race hampered by their small size. Goblins are typically neutral evil, as they care only for their own needs.",
+    "powers": [
+        "psy_origins:short_standing",
+        "psy_origins:gemstone_appetite",
+        "psy_origins:tough_teeth",
+        "psy_origins:goblin_loot"
+    ],
+    "icon":"silentgear:emerald_shard",
+    "impact": 0
+}

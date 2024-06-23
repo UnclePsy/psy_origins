@@ -1,0 +1,46 @@
+{
+    "name":"Warlock Passive",
+    "type": "origins:attribute",
+    "modifiers":[
+    {
+        "attribute": "irons_spellbooks:fire_spell_power",
+        "operation": "multiply_base",
+        "value": 1.05
+    },
+    {
+        "attribute": "irons_spellbooks:ice_spell_power",
+        "operation": "multiply_base",
+        "value": 1.05
+    },
+    {
+        "attribute": "irons_spellbooks:lighting_spell_power",
+        "operation": "multiply_base",
+        "value": 1.05
+    },
+    {
+        "attribute": "irons_spellbooks:evocation_spell_power",
+        "operation": "multiply_base",
+        "value": 1.05
+    },
+    {
+        "attribute": "irons_spellbooks:holy_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    },
+    {
+        "attribute": "irons_spellbooks:ender_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    },
+    {
+        "attribute": "irons_spellbooks:evocation_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    },
+    {
+        "attribute": "irons_spellbooks:eldritch_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    }
+    ]
+}

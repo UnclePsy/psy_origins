@@ -1,0 +1,13 @@
+{
+    "name": "Harpy",
+    "description": "The Harpy race is a mono-gendered demi-human race with the body of a human and the wings & talons of a bird. A pure and cheerful species that loves the blue sky wishing to soar it all their lives, unfortunately due to their more heavier bones compared to their bird counter-part their flight is restrictive",
+    "powers": [
+        "psy_origins:feather_fall",
+        "psy_origins:wing_flap",
+        "psy_origins:bird_in_a_cage",
+        "psy_origins:aerial_superiority"
+    ],
+    "icon":"minecraft:feather",
+    "order": 2,
+    "impact": 1
+}

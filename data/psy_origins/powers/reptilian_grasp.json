@@ -1,0 +1,9 @@
+{
+    "name": "Reptilian Grasp",
+    "type": "origins:climbing",
+    "allow_holding": false,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "psy_origins:rg_toggle"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name":"Orcish Rest",
+    "description":"You shouldn't see this",
+    "hidden": true,
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+        "type": "origins:grant_power",
+        "power": "psy_origins:re_toggle",
+        "source":"psy_origins:orc"
+    }
+}

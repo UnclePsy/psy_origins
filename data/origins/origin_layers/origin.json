@@ -1,0 +1,20 @@
+{
+    "order": 1,
+    "origins": [
+        "origins:human",
+        "psy_origins:harpy",
+        "psy_origins:goblin",
+        "psy_origins:dwarf",
+        "psy_origins:orc",
+        "psy_origins:arachnid",
+        "psy_origins:merfolk",
+        "psy_origins:elf",
+        "psy_origins:enderian",
+        "psy_origins:catfolk",
+        "psy_origins:goblin",
+        "psy_origins:demon-kin",
+        "psy_origins:lizardfolk"
+    ],
+    "enabled": true,
+    "name": "Races"
+}

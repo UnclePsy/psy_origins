@@ -1,0 +1,11 @@
+{
+    "name": "Demonic Strength",
+    "description":"While on fire you gain more power, you also gain power the more health you're missing.",
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:on_fire"
+    },
+    "modifier":{"name": "Damage when on fire",
+"operation":"multiply_total",
+"value": 1.15}
+}

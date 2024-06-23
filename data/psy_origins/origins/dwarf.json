@@ -1,0 +1,13 @@
+{
+    "name": "Dwarf",
+    "description": "Dwarves are a race of short, stocky mountain-dwelling humanoids. They are known as a mountainous race that excels in metalworking. Recently shared their knowledge of artificers and their masterwork among those who paid a pretty coin.  ",
+    "powers": [
+        "psy_origins:stout_standing",
+        "psy_origins:brass_density",
+        "psy_origins:sprinter",
+        "psy_origins:golden_glory",
+        "psy_origins:born_underground"
+    ],
+    "icon":"minecraft:golden_pickaxe",
+    "impact": 0
+}

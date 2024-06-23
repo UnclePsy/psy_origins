@@ -1,0 +1,10 @@
+{
+    "name": "Warlock",
+    "description": "",
+    "powers": [
+        "psy_origins:elemental_proficiency",
+        "psy_origins:eldritch_bind",
+        "psy_origins:warlock_passive"
+    ],
+    "icon":"irons_spellbooks:upgrade_orb"
+}

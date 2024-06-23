@@ -1,0 +1,22 @@
+{
+    "name":"Divine Proficiency",
+    "description":"Your faith in higher power gives you an edge with Holy, Lightning, Nature and Fire Magic",
+    "type": "origins:attribute",
+    "modifiers": [{
+        "attribute": "irons_spellbooks:nature_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:holy_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:lightning_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:fire_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    }]
+}

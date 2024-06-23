@@ -1,0 +1,11 @@
+{
+    "name":"Ender Gems",
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {"item": "minecraft:ender_pearl",
+        "amount": 5,
+        "tag" : "{display:{Name:'{\"text\":\"Ender Gems\"}'}}"
+    }
+    }
+}

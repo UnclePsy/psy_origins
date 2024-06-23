@@ -1,0 +1,8 @@
+{
+    "name":"rg_toggle",
+    "hidden": true,
+    "description":"You shouldn't see this",
+    "type": "origins:toggle",
+    "key": "key.origins.secondary_active"
+    
+}

@@ -1,0 +1,7 @@
+{
+    "name": "feather fall",
+    "loading_priority": 1,
+    "type": "origins:modify_falling",
+    "velocity": 0.5,
+    "take_fall_damage": false
+}

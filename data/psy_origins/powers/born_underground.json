@@ -1,0 +1,22 @@
+{
+    "name":"Born Underground",
+    "description":"You deal extra damage to most cave entities and loot more from metal ores.",
+    "type":"origins:modify_damage_dealt",
+    "modifier":{"operation":"multiply_base","value": 1.10},
+    "target_condition": {
+        "type": "origins:or",
+        "conditions": [{
+            "type": "origins:entity_group",
+            "group": "arthropod"
+        },
+    {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:bat"
+    },
+    {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:warden"
+    }
+    ]
+    }
+}

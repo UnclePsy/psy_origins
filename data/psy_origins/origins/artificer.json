@@ -1,0 +1,10 @@
+{
+    "name": "Artificer",
+    "description": "",
+    "powers":[
+        "psy_origins:summon_automaton",
+        "psy_origins:technical_savant",
+        "psy_origins:artificer_passive"
+    ],
+    "icon":"embers:winding_gears"
+}

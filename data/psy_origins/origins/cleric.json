@@ -1,0 +1,11 @@
+{
+    "name": "Cleric",
+    "description": "",
+    "powers": [
+        "psy_origins:elemental_proficiency",
+        "psy_origins:godsent",
+        "psy_origins:cleric_passive"
+    ],
+    "impact": 0,
+    "icon":"irons_spellbooks:villager_spell_book"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Knight",
+    "powers": [
+        "psy_origins:inspire",
+        "psy_origins:martial_proficiency"
+    ],
+    "icon":"minecraft:iron_helmet",
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

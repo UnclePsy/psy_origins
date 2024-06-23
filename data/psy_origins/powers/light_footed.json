@@ -1,0 +1,33 @@
+{
+    "name":"Light footed",
+    "description":"Your stride is unburden",
+    "type": "origins:multiple",
+    "soul_stride":{
+        "type": "origins:modify_movement_speed",
+        "condition": {
+        "type": "origins:block_collision",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:soul_sand"
+        }
+        },
+        "modifier": {
+        "operation": "multiply_total",
+        "value": 1.0
+        }
+    },
+    "snow_stride":{
+        "type": "origins:modify_movement_speed",
+        "condition": {
+        "type": "origins:block_collision",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:powder_snow"
+        }
+        },
+        "modifier": {
+        "operation": "multiply_total",
+        "value": 1.0
+        }
+    }
+}

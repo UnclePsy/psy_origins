@@ -1,0 +1,22 @@
+{
+    "name":"Attuned with nature",
+    "description" : "Forest animals are less likely to attack you. In the wild you move faster. And when harvesting crops you have a green thumb.",
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wolf"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:camel"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:polar_bear"
+            }
+        ]
+    }
+}

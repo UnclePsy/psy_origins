@@ -1,0 +1,10 @@
+{
+    "name": "Kensei",
+    "description": "",
+    "powers": [
+        "psy_origins:martial_proficiency",
+        "psy_origins:sound_soul",
+        "psy_origins:kensei_passive"
+    ],
+    "icon":"lets_forge_bronze_and_iron:iron_katana"
+}

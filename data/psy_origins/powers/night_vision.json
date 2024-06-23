@@ -1,0 +1,6 @@
+{
+    "name":"Night Vision",
+    "type": "origins:toggle_night_vision",
+    "strength": 0.5,
+    "key": "key.origins.secondary_active"
+}

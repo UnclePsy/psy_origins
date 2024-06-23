@@ -1,0 +1,10 @@
+{
+    "name":"Magic Deficiency",
+    "description"  : "You value muscle over mind, you have less mana than the others",
+    "type": "origins:attribute",
+    "modifier":{
+        "attribute": "irons_spellbooks:max_mana",
+        "operation": "multiply_total",
+        "value": 0.90
+    }
+}

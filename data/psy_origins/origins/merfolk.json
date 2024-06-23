@@ -1,0 +1,11 @@
+{
+    "name": "Merfolk",
+    "description": "Merfolks are aquatic creatures with fish-like characteristics that live underwater Currently in a good standing with humankind .",
+    "powers": [
+        "psy_origins:waterborne",
+        "psy_origins:fish_out_of_water",
+        "psy_origins:deep_walker"
+    ],
+    "icon":"minecraft:trident",
+    "impact": 0
+}

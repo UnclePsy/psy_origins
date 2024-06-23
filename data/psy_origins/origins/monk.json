@@ -1,0 +1,9 @@
+{
+    "name": "Monk",
+    "powers": [
+        "psy_origins:armorless"
+    ],
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

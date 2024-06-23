@@ -1,0 +1,13 @@
+{
+    "name": "Cold Blooded",
+    "description":"Being cold blooded, you cannot sprint in cold weather",
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0.45
+        }
+    },
+    "type": "origins:prevent_sprinting"
+}

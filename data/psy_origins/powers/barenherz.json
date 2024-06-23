@@ -1,0 +1,13 @@
+{
+    "name":"Bärenherz",
+    "description":"You gain 8 additional hearts",
+    "badges": [{
+        "type": "origins:sprite","sprite": "origins:textures/gui/community/silent/badge/shapes/shape_heart.png"
+    }],
+    "type": "origins:attribute",
+    "modifier":{
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 16
+    }
+}

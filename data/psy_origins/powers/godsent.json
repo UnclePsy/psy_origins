@@ -1,0 +1,34 @@
+{
+    "name":"Godsent",
+    "description":"Grant a blessing to everyone around, you included",
+    "type": "origins:active_self",
+    "key": "key.origins.primary_active",
+    "cooldown": 3600,
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 16,
+        "bientity_condition": {"type": "origins:target_condition","condition": {"inverted": true,"type": "apugli:hostile" }},
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 1000,
+                        "amplifier": 1
+                    },
+                    {
+                        "effect": "minecraft:instant_health",
+                        "amplifier": 1
+                    },
+                    {
+                        "effect": "minecraft:health_boost",
+                        "amplifier": 1,
+                        "duration": 1000
+                    }
+                ]
+            }
+        }
+    }
+}

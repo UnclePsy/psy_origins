@@ -1,0 +1,18 @@
+{
+    "order": 2,
+    "origins": [
+        "psy_origins:knight",
+        "psy_origins:kensei",
+        "psy_origins:barbarian",
+        "psy_origins:rogue",
+        "psy_origins:paladin",
+        "psy_origins:artificer",
+        "psy_origins:ranger",
+        "psy_origins:sorcerer",
+        "psy_origins:warlock",
+        "psy_origin:cleric",
+        "psy_origin:wizard"
+    ],
+    "enabled": true,
+    "name": "Classes"
+}

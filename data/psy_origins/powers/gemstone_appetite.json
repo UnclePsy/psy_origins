@@ -1,0 +1,137 @@
+{
+    "name":"Gemstone Appetite",
+    "loading_priority": 1,
+    "type": "origins:active_self",
+    "condition": {"type": "origins:equipped_item","equipment_slot": "mainhand",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient":{
+            "item":"minecraft:emerald"
+        }}
+        },
+        "key":"key.use",
+
+    "entity_action": {
+        "type":"origins:and",
+        "actions": [
+            {
+                "type": "origins:choice",
+                "actions": [
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:haste",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:slowness",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:blindness",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:mining_fatigue",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:regeneration",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:speed",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:absorption",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "element":             {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:instant_damage",
+                                "duration": 1200,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        "weight": 1
+                    }
+                ]
+            },
+            {"type": "origins:equipped_item_action",
+        "action": {"type": "origins:consume","amount": 1},
+        "equipment_slot": "mainhand"
+    
+    }
+        ]
+        
+
+        
+    }
+
+}

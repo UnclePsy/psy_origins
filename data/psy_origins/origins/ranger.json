@@ -1,0 +1,9 @@
+{
+    "name": "Ranger",
+    "powers": [
+        "psy_origins:ranger_passive",
+        "psy_origins:animal_companion"
+    ],
+    "impact": 0,
+    "icon":"minecraft:bow"
+}

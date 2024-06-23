@@ -1,0 +1,10 @@
+{
+    "name":"Knightly Training",
+    "description":"Years of training allows you to wear heavier armor without being encumbered.",
+    "type": "origins:attribute",
+    "modifier":{
+        "attribute": "epicfight:weight",
+        "operation": "multiply_total",
+        "value": 0.90
+    }
+}

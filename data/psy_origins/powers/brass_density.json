@@ -1,0 +1,5 @@
+{
+    "name": "Brass Density",
+    "description": "You sink to the bottom of the water",
+    "type": "origins:ignore_water"
+}

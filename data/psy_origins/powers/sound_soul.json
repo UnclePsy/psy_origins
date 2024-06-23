@@ -1,0 +1,47 @@
+{
+    "name":"Sound Soul",
+    "description":"You concentrate all your focus to deliver a powerful strike to anyone around",
+    "type":"origins:active_self",
+    "key": "key.origins.secondary_active",
+    "cooldown": 3600,
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "bientity_condition": {"type":"origins:or",
+    "conditions": [
+        {"type":"origins:attack_target"},
+        {"type":"origins:attacker"}
+    ]},
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+        "type": "origins:and",
+        "actions": [
+        {
+            "type": "origins:apply_effect",
+            "effects": [{"effect": "minecraft:weakness",
+            "amplifier": 2 }]},
+            {
+                "type":"origins:damage",
+                "damage_type": "minecraft:generic",
+                "amount": 5,
+                "modifier" : {
+                    "operation":"addition",
+                    "value": 1
+                }
+            },
+            {
+                "type": "origins:damage",
+                "amount": {
+            "type": "origins:execute_command",
+            "command": "execute if entity @s[nbt={Health:1.0f}] run data get entity @s Health 0.5",
+            "interval": 1,
+            "tick_interval": 20
+        }
+    
+    }
+            
+        ]
+        
+        }
+    }}
+}

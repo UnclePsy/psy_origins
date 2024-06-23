@@ -1,0 +1,8 @@
+{
+    "name":"Smite",
+    "description":"",
+    "type": "origins:active_self",
+    "key": "key.origins.primary_active",
+    "cooldown": 3600,
+    "entity_action": {"type": "apoli:grant_power","power": "psy_origins:smite_charge","source": "psy_origins:paladin"}
+}

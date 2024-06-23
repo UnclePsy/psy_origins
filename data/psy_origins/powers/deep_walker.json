@@ -1,0 +1,20 @@
+{
+    "name": "Deep Walker",
+    "description":"You can control your own buoyancy, allowing you to walk the ocean floor",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "retain_state": true
+    },
+    "power": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "psy_origins:deep_walker_toggle"
+        },
+        "type": "origins:ignore_water"
+    }
+}

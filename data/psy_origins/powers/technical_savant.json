@@ -1,0 +1,9 @@
+{
+    "name":"Technical Savant",
+    "description":"",
+    "type": "origins:modify_xp_gain",
+    "modifier":{
+        "operation":"multiply_base",
+        "value": 1.20
+    }
+}

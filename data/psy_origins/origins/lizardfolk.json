@@ -1,0 +1,13 @@
+{
+    "name": "Lizardfolk",
+    "order": 1,
+    "description": "More commonly accepted after the resurgent human war against their kind, these rare species have unique traits making them sought out mercenaries ",
+    "power":[
+        "psy_origins:reptilian_grasp",
+        "psy_origins:cold_blooded",
+        "origins:large_appetite",
+        "psy_origins:reptilian_heritage",
+        "psy_origins:rg_toggle"
+    ],
+    "icon":"minecraft:turtle_helmet"
+}

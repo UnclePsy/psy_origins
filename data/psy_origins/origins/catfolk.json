@@ -1,0 +1,14 @@
+{
+    "name": "Catfolk",
+    "description": "Humanoid cat race, this agile race used to be unknown to the common races but now they happily coexist within the civilizations, but some still hold to their tribal ancestry.",
+    "powers": [
+        "psy_origins:aquaphobia",
+        "psy_origins:feline_form",
+        "origins:sprint_jump",
+        "origins:fall_immunity",
+        "origins:scare_creepers",
+        "origins:cat_vision"
+    ],
+    "icon":"easy_npc:cat_spawn_egg",
+    "impact": 0
+}

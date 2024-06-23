@@ -1,0 +1,28 @@
+{
+    "name": "Fragile Constitution",
+    "type": "origins:restrict_armor",
+    "head": {
+        "inverted": true,
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    },
+    "chest": {
+        "inverted": true,
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 5
+    },
+    "legs": {
+        "inverted": true,
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 4
+    },
+    "feet": {
+        "inverted": true,
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 1
+    }
+}

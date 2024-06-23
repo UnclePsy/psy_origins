@@ -1,0 +1,12 @@
+{
+    "name": "Enderian",
+    "description": "Spawn of the End Realm - These `creatures` abuse their connection to the end that overextends to the overworld allowing them to almost mimic the capabilities of an Enderman.",
+    "impact": 0,
+    "powers": [
+        "origins:throw_ender_pearl",
+        "origins:water_vulnerability",
+        "psy_origins:tall_standing",
+        "psy_origins:endergems"
+    ],
+    "icon":"minecraft:ender_eye"
+}

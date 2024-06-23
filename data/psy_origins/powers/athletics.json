@@ -1,0 +1,40 @@
+{
+    "name": "Athleticism",
+    "type": "origins:multiple",
+    "athletic": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:sprinting"
+                },
+                {
+                    "type": "origins:swimming"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                }
+            ]
+        },
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.8,
+            "name": "athletic"
+        }
+    },
+    "consumer": {
+        "condition": {
+            "type": "origins:relative_health",
+            "comparison": "<",
+            "compare_to": 0.55
+        },
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 1.4,
+            "name": "regen"
+        }
+    }
+}

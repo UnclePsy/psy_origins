@@ -1,0 +1,31 @@
+{
+    "name":"Artificer Passive",
+    "type": "origins:attribute",
+    "modifiers":[
+    {
+        "attribute": "irons_spellbooks:lightning_spell_power",
+        "operation": "multiply_base",
+        "value": 1.05
+    },
+    {
+        "attribute": "irons_spellbooks:ender_spell_power",
+        "operation": "multiply_base",
+        "value": 1.05
+    },
+    {
+        "attribute": "irons_spellbooks:fire_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    },
+    {
+        "attribute": "irons_spellbooks:ender_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    },
+    {
+        "attribute": "irons_spellbooks:lightning_magic_resist",
+        "operation": "multiply_base",
+        "value": 1.10
+    }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Demon-kin",
+    "description": "Born from the literal pits of hell, Demon-kin are half demon and half human while sharing a lot of the immunities of their demon kind they share some human weaknesses which has also marked them as heretics from the rest of their kind",
+    "powers": [
+        "origins:fire_immunity",
+        "origins:poison_immunity",
+        "origins:burning_wrath",
+        "psy_origins:demonic_strength",
+        "origins:water_vulnerability",
+        "origins:hotblooded",
+        "origins:nether_spawn"
+    ],
+    "icon":"rats:rat_upgrade_demon",
+    "impact": 0
+}

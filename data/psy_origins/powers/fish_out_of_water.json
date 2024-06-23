@@ -1,0 +1,15 @@
+{
+    "name": "Fish out of water",
+    "condition": {
+        "inverted": true,
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:fluid",
+            "fluid_condition": {
+                "type": "origins:fluid",
+                "fluid": "minecraft:water"
+            }
+        }
+    },
+    "type": "origins:prevent_sprinting"
+}

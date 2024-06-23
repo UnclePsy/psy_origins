@@ -1,0 +1,13 @@
+{
+    "name": "Orc",
+    "description": "Large, muscular humanoids with green or gray skin, prominent tusks, and brutish features while great tribal warriors they are usually encumbered by their own weight. ",
+    "powers": [
+        "psy_origins:brutish_nature",
+        "psy_origins:athletics",
+        "psy_origins:relentless_endurance",
+        "psy_origins:orcish_rest",
+        "psy_origins:re_toggle"
+    ],
+    "icon":"minecraft:iron_axe",
+    "impact": 0
+}

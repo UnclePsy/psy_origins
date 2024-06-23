@@ -1,0 +1,22 @@
+{
+    "name": "Waterborne",
+    "type": "origins:multiple",
+    "respiration": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:gain_air",
+            "value": 10
+        }
+    },
+    "aqua_affinity": {
+        "type": "origins:aqua_affinity"
+    },
+    "hydrodynamic": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 1.3
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name":"Martial Proficiency ",
+    "description":"You have skills in the martial arts",
+    "type": "origins:multiple",
+    "stamina_max":{
+        "type": "origins:attribute",
+        "modifier":{
+            "attribute": "epicfight:staminar",
+            "operation": "multiply_base",
+            "value": 1.15
+        }
+    },
+    "stamina_recovery":{
+        "type": "origins:attribute",
+        "modifier":{
+            "attribute": "epicfight:stamina_regen",
+        "operation": "multiply_base",
+        "value":1.10}
+    },
+    "mana_max":{
+        "type": "origins:attribute",
+        "modifier":{
+            "attribute": "irons_spellbooks:max_mana",
+            "operation": "multiply_base",
+            "value": 0.85
+        }
+    },
+    "mana_regen":{
+        "type": "origins:attribute",
+        "modifier":{
+            "attribute": "irons_spellbooks:mana_regen",
+            "operation": "multiply_base",
+            "value": 0.90
+        }
+    }
+}

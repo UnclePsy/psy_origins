@@ -1,0 +1,36 @@
+{
+    "name":"Eldritch Bind",
+    "description":"You concentrate all your focus to deliver a powerful strike to anyone around",
+    "type":"origins:active_self",
+    "key": "key.origins.secondary_active",
+    "cooldown": 3600,
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "bientity_condition": {"type":"origins:or",
+    "conditions": [
+        {"type":"origins:attack_target"},
+        {"type":"origins:attacker"}
+    ]},
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+        "type": "origins:and",
+        "actions": [
+        {
+            "type": "origins:apply_effect",
+            "effects": [{"effect": "minecraft:slowness",
+            "amplifier": 2 }]},
+            {
+                "type":"origins:damage",
+                "damage_type": "minecraft:magic",
+                "amount": 7,
+                "modifier" : {
+                    "operation":"addition",
+                    "value": 1
+                }
+            }
+        ]
+        
+        }
+    }}
+}

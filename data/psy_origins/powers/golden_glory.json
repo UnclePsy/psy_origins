@@ -1,0 +1,9 @@
+{
+    "name":"Golden Glory",
+    "description":"You are eager to mine metal",
+    "type": "origins:attribute",
+    "condition": {"type": "origins:block_in_radius","block_condition": {"type": "origins:in_tag","tag": "ores"},"radius": 8},
+    "modifiers":[{"attribute": "minecraft:generic.luck",
+"operation": "addition",
+"value": 0.15},{"attribute": "additionalentityattributes:dropped_experience","operation": "multiply_total","value": 1.30}]
+}

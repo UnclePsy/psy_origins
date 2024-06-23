@@ -1,0 +1,22 @@
+{
+    "name":"Supernatural Proficiency",
+    "description":"Your devotion to otherwordly powers gives you a boon with Eldritch, Ender,Blood and Nature Hexes ",
+    "type": "origins:attribute",
+    "modifiers": [{
+        "attribute": "irons_spellbooks:nature_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:eldritch_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:blood_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:ender_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    }]
+}

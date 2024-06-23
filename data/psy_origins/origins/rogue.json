@@ -1,0 +1,11 @@
+{
+    "name": "Rogue",
+    "description": "",
+    "powers": [
+        "psy_origins:martial_proficiency",
+        "psy_origins:vanish",
+        "psy_origins:rogue_passive"
+    ],
+    "impact": 0,
+    "icon":"epicfight:netherite_dagger"
+}

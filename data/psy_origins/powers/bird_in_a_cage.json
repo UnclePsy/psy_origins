@@ -1,0 +1,8 @@
+{
+    "name": "Bird in a cage",
+    "condition": {
+        "inverted": true,
+        "type": "origins:exposed_to_sky"
+    },
+    "type": "origins:prevent_sprinting"
+}

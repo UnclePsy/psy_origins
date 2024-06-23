@@ -1,0 +1,24 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.1,
+        "action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "say gobo found emruld"
+                },
+                {
+                    "type": "origins:give",
+                    "stack": {
+                        "item": "minecraft:emerald",
+                        "amount": 1
+                    }
+                }
+            ]
+        }
+    },
+    "cooldown": 1
+}

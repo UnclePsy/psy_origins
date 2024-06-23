@@ -1,0 +1,12 @@
+{
+    "name": "Elf",
+    "description": " An ancient race of stuck up, hoity-toity knife-eared twig huggers that treat other races as inferior beings due to their long lifespans. These arrogant, pompous, baby faced bureaucratic leaf-fondling sons of mud golems live isolated in the woods, outcasting themselves from society in order to 'preserve' their dew drinking bloodlines from the common man ",
+    "descriptiond": "Elves or `Choujuu-zoku` the Long-lived is a race of beings who are gifted with lifespans that far exceed that of a normal human, both physically and spiritually.",
+    "powers":[
+        "psy_origins:attuned_with_nature",
+        "psy_origins:high_stature"
+        
+    ],
+    "icon":"botania:livingwood_twig",
+    "impact": 0
+}

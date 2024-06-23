@@ -1,0 +1,9 @@
+{
+    "name": "Sorcerer",
+    "description": "",
+    "powers": [
+        "psy_origins:elemental_proficiency",
+        "psy_origins:chaos_blast",
+        "psy_origins:sorcerer_passive"],
+    "icon":"irons_spellbooks:gold_spell_book"
+}

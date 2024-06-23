@@ -1,0 +1,11 @@
+{
+    "name": "Feline Form",
+    "type": "origins:multiple",
+    "short": {
+        "type": "origins:simple"
+    },
+    "cat_feet": {
+        "type": "origins:modify_falling",
+        "take_fall_damage": false
+    }
+}

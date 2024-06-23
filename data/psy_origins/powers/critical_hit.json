@@ -1,0 +1,13 @@
+{
+    "name": "Critical Hit",
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:chance",
+        "chance": 0.05,
+        "action": {
+            "type": "origins:damage",
+            "amount": 2
+        }
+    },
+    "cooldown": 1
+}

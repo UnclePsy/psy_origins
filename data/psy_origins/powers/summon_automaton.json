@@ -1,0 +1,10 @@
+{
+    "name":"Summon Automaton",
+    "type": "origins:active_self",
+    "cooldown": 3600,
+    "entity_action": {
+        "type": "origins:spawn_entity",
+        "entity_type": "minecraft:iron_golem"
+    },
+    "key": "key.origins.primary_active"
+}

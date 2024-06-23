@@ -1,0 +1,10 @@
+{
+    "name":"Chaos Blast",
+    "description":"Unleash the wrath of the elements",
+    "type": "origins:active_self",
+    "entity_action": {"type": "apugli:raycast",
+    "block_action": {"type": "origins:explode","create_fire": true,"destruction_type": "none","power": 10}
+},
+"cooldown": 3600,
+"key": "key.origins.primary_active"
+}

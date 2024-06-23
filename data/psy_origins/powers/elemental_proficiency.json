@@ -1,0 +1,22 @@
+{
+    "name":"Elemental Proficiency",
+    "description":"Your connection with the worldly elements gives you an edge with Fire, Ice,Lighting and Evocation Spells",
+    "type": "origins:attribute",
+    "modifiers": [{
+        "attribute": "irons_spellbooks:ice_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:evocation_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:lightning_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    },{
+        "attribute": "irons_spellbooks:fire_spell_power",
+        "operation": "multiply_total",
+        "value": 1.15
+    }]
+}

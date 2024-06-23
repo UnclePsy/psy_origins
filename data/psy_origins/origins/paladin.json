@@ -1,0 +1,9 @@
+{
+    "name":"Paladin",
+    "description": "",
+    "powers": [
+        "psy_origins:smite",
+        "psy_origins:paladin_passive"
+    ],
+    "icon":"soulslikeuniverse:solarknight_chestplate"
+}

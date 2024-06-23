@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "X",
+    "Y",
+    "Z"
+    ],
+    "key": {
+    "X": {
+        "item": "minecraft:ender_pearls",
+        "nbt": "{display:{Name:'{\"text\":\"Ender Gems\"}'}}"
+    },
+    "Y": {
+        "item": "minecraft:ender_pearls",
+        "nbt": "{display:{Name:'{\"text\":\"Ender Gems\"}'}}"
+    },
+    "Z": {
+        "item": "minecraft:ender_pearls",
+        "nbt": "{display:{Name:'{\"text\":\"Ender Gems\"}'}}"
+    }
+    },
+    "result": {
+    "item": "minecraft:air"
+    }
+}
